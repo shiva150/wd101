@@ -32,8 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
         newRow.insertCell(2).innerHTML = password;
         newRow.insertCell(3).innerHTML = dob;
         newRow.insertCell(4).innerHTML = terms ? 'Yes' : 'No';
-
-        // Clear the form
-        form.reset();
     });
 });
+        
